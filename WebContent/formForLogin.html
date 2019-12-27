@@ -1,0 +1,59 @@
+
+<HTML>
+<HEAD>
+<TITLE>LDB 도서관</TITLE>
+
+<script>
+ function enrolIdPassword() {
+	 window.top.location='enrolIdPassword/systemEnrolIdPassword.html'; 
+ }
+</script>
+
+</HEAD>
+
+<BODY>
+
+	<table width=100%>
+		<tr>
+			</td>
+			
+			<td width=10% align=center><img src="img/bookLogo.gif" width=100 height=100 alt="표시안됨" /></td>
+
+			<td width=70% align=center><h2>LDB 도서관<h2></td>
+
+			<td>
+
+				<H6>
+					<TABLE align=center border=0 cellpadding=1 cellspacing="1"
+						bordercolor="#999999" width=80 >
+						
+						<form name=form1 method=post">
+							<TR align=left bgcolor=white>
+								<TD><img src="img/id.gif" /></TD>
+								<TD><INPUT TYPE="text" NAME=ID value="root" size=15></TD>
+								<td><input type="submit" value="로그인" onclick="javascript_:document.form1.action='systemLogin.jsp';"></td>	
+							</TR>
+							
+							<TR align=left bgcolor=white>
+								<TD><img src="img/password.gif" /></TD>
+								<TD><INPUT TYPE="password" NAME=password value="0000" size=15></TD>
+								<td> 
+								<input type="submit" value="회원가입" onclick="javascript_:document.form1.action='systemRegister.jsp';">
+								</td>								
+							</TR>
+						</form>
+					</TABLE>
+				</H6>
+			</td>
+		</tr>		
+	</table>
+	
+	<table width=100%>
+	<tr>
+		<td>
+			<td width=100% align=center><img src="img/Library.gif" width=100% height=500 alt="표시안됨" /></td>
+		</td>
+	</tr>
+	
+</BODY>
+</HTML>
