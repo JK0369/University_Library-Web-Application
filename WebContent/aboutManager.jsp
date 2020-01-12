@@ -9,7 +9,7 @@
     <% NormalManager normalManager = (NormalManager) session.getAttribute("user"); 
        System.out.println("  << for debug >> in NormalTopMenu:NormalManager = " + normalManager.getId()); 
  
-       %>
+       %> 
         
 	<table width=100%>
 		<tr>

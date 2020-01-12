@@ -14,7 +14,7 @@ public class DB {
     static  Statement stmt         = null;
     static  ResultSet rs           = null;
     static  PreparedStatement prStmt  = null;
-
+ 
     public static void loadConnect()  {
     		    // 드라이버 로딩
     		 try {
